@@ -14,8 +14,8 @@ body {
 }
 
 header{
-    background-color:var(--cor-primaria)
-    color: var(var(--cor-secundaria))
+    background-color:var(--cor-primaria);
+    color: var(var(--cor-secundaria));
     text-align: center;
     margin: 0 auto;
     padding:16px;
