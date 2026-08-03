@@ -18,5 +18,14 @@ header{
     color: var(var(--cor-secundaria))
     text-align: center;
     margin: 0 auto;
-    padding:16px
+    padding:16px;
+}
+
+main{
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
 }
