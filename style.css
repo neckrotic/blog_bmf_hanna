@@ -3,12 +3,20 @@
     --cor-secundaria: #4b2691;
     --cor-fundo: #e4cfff;
     --cor-texto: #17003d;
-    --cor-contraste: #000000;
-    --cor-botao: #000000;
+    --cor-contraste: #aa7cff;
+    --cor-botao: #9067d3;
 
 }
 
 body {
     max-width: 100vw; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color:var(--cor-primaria)
+    color: var(var(--cor-secundaria))
+    text-align: center;
+    margin: 0 auto;
+    padding:16px
 }
