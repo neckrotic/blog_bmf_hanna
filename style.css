@@ -91,3 +91,20 @@ button:hover {
     background-color: var(--cor-secundaria);
     transform: scale(1.1);
 }
+
+#topo {
+    display: block;
+    margin: 30px auto;
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#topo:hover {
+    background-color: var(--cor-secundaria);
+    transform: scale(1.05);
+}

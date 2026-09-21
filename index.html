@@ -167,6 +167,8 @@
             </div>
         </article>
 
+        <button id="topo" onclick="voltarAoTopo()">↑ voltar ao topo</button>
+
     </main>
 
     <script>
@@ -176,8 +178,16 @@
             numero = numero + 1;
             contador.innerText = numero;
         }
+
+        function voltarAoTopo() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
     </script>
 
 </body>
 
 </html>
+
