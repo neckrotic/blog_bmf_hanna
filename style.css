@@ -1,6 +1,6 @@
 :root {
-    --cor-primaria: #1f0058;
-    --cor-secundaria: hsl(261, 76%, 68%);
+    --cor-primaria: #351969;
+    --cor-secundaria: #4b2691;
     --cor-fundo: #e4cfff;
     --cor-texto: #9f87c5;
     --cor-contraste: #aa7cff;
@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    color: white;
     text-align: center;
     margin: 0 auto;
     padding: 16px;
@@ -58,9 +58,10 @@ article {
     align-items: center;
     justify-content: center;
 
-    transition: transform 0.3s ease,
-                box-shadow 0.3s ease,
-                background-color 0.3s ease;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background-color 0.3s ease;
 }
 
 article:hover {
@@ -78,17 +79,19 @@ img {
     height: 80px;
     transition: transform 0.3s ease;
 }
-    transform: translateY(-8px) scale(1.03);
-    box-shadow: 4px 8px 20px rgba(53, 25, 105, 0.4);
-    background-color: #d8bfff;
+
+button {
+    background-color: var(--cor-botao);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-article:hover img {
-    transform: scale(1.15);
-}
-
-img {
-    width: 80px;
-    height: 80px;
-    transition: transform 0.3s ease;
+button:hover {
+    background-color: var(--cor-secundaria);
+    transform: scale(1.1);
 }
